@@ -6,7 +6,10 @@
 ```markdown
 # Markov Chain Text Generator
 
-This project implements a simple text generation algorithm using Markov chains. The algorithm creates a statistical model that predicts the probability of a word based on the preceding word(s), and uses this model to generate text that mimics the style of the input corpus.
+This project implements a simple text generation algorithm using Markov chains.
+The algorithm creates a statistical model that predicts the probability of a word
+based on the preceding word(s), and uses this model to generate text that mimics
+the style of the input corpus.
 
 ## Table of Contents
 
@@ -18,7 +21,10 @@ This project implements a simple text generation algorithm using Markov chains. 
 
 ## Introduction
 
-The Markov Chain Text Generator is a Python script that builds a Markov chain model from a given text corpus and generates new text based on this model. This project serves as an example of how Markov chains can be used for text generation and can be a starting point for more advanced text generation projects.
+The Markov Chain Text Generator is a Python script that builds a Markov chain model
+from a given text corpus and generates new text based on this model. This project
+serves as an example of how Markov chains can be used for text generation and can
+be a starting point for more advanced text generation projects.
 
 ## Requirements
 
@@ -29,7 +35,8 @@ The Markov Chain Text Generator is a Python script that builds a Markov chain mo
 
 1. Clone this repository or download the script file.
 
-2. Prepare a text corpus that you want to use for training the Markov chain model. You can replace the sample corpus in the script with your own text.
+2. Prepare a text corpus that you want to use for training the Markov chain model.
+You can replace the sample corpus in the script with your own text.
 
 3. Run the script:
     ```bash
@@ -52,7 +59,8 @@ from collections import defaultdict
 
 - `re`: Provides support for regular expressions.
 - `random`: Implements pseudo-random number generators.
-- `defaultdict` from `collections`: Extends the built-in `dict` class to provide default values for non-existent keys.
+- `defaultdict` from `collections`: Extends the built-in `dict` class to provide default values
+   for non-existent keys.
 
 ### Sample Corpus
 
@@ -60,8 +68,11 @@ A sample text used to train the Markov chain model. Replace this with your own t
 
 ```python
 corpus = """
-In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing.
-An olla of rather more beef than mutton, a salad on most nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra on Sundays, made away with three-quarters of his income.
+In a village of La Mancha, the name of which I have no desire to call to mind, there lived not
+long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean
+hack, and a greyhound for coursing. An olla of rather more beef than mutton, a salad on most
+nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra on Sundays, made
+away with three-quarters of his income.
 """
 ```
 
@@ -127,8 +138,11 @@ from collections import defaultdict
 
 # Sample corpus
 corpus = """
-In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing.
-An olla of rather more beef than mutton, a salad on most nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra on Sundays, made away with three-quarters of his income.
+In a village of La Mancha, the name of which I have no desire to call to mind, there lived not
+long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean
+hack, and a greyhound for coursing. An olla of rather more beef than mutton, a salad on most
+nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra on Sundays, made
+away with three-quarters of his income.
 """
 
 # Tokenize the text
