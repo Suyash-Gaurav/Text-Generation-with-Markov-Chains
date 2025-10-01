@@ -3,7 +3,7 @@
 
 
 
-```markdown
+
 # Markov Chain Text Generator
 
 This project implements a simple text generation algorithm using Markov chains.
